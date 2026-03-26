@@ -20,17 +20,18 @@ INGESTION_CONFIG = [
 
     # ERP
     {
-      'source': 'erp,
+      'source': 'erp',
       'path': f'{BASE_PATH}/source_erp/CUST_AZ12.csv',
       'table': 'erp_CUST_AZ12_raw' 
     },
     {
-      'source': 'erp,
+      'source': 'erp',
       'path': f'{BASE_PATH}/source_erp/LOC_A101.csv',
       'table': 'erp_LOC_A101_raw'
     },
     {
-      'source': 'erp,
-      'path': f'{BASE_PATH}/source_erp/PX_CAT_G1V2.csv.csv',
+      'source': 'erp',
+      'path': f'{BASE_PATH}/source_erp/PX_CAT_G1V2.csv',
       'table': 'erp_PX_CAT_G1V2_raw'
     }
+]
